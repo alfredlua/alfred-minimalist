@@ -10,7 +10,7 @@
 	
 				    <div class="page-header">	
 				    	<h1><?php the_title(); ?></h1>
-				    </div>
+				    </div><!-- page-header -->
 
 
 					<?php the_content(); ?>
@@ -19,18 +19,18 @@
 
 					<div class="page-header">	
 				    	<h1>Oh no!</h1>
-				    </div>
+				    </div><!-- page-header -->
 
 				    <p>We could not find this page!!!</p>
 
 				<?php endif; ?>
 
-	    	</div>
+	    	</div><!-- .col-md-8 -->
 
 	    	<?php get_sidebar(); ?>
 
-	    </div>
+	    </div><!-- .row -->
 
-    </div>
+    </div><!-- .container -->
 
 <?php get_footer(); ?>
