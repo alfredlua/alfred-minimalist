@@ -9,8 +9,6 @@
   <meta name="author" content="">
 
   <title><?php echo get_bloginfo( 'name' ); ?></title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo get_bloginfo( 'template_directory' );?>/blog.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
