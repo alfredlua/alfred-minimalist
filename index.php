@@ -15,6 +15,16 @@
 
 					<?php the_content(); ?>
 
+					<hr>
+
+					<p>			    		
+			    		Category: <?php the_category( ', ' );?> |
+			    		<?php the_tags('Tags: ', ', ');?>
+
+					</p>	
+
+					<hr>
+
 				<?php endwhile; else: ?>
 
 					<div class="page-header">	
