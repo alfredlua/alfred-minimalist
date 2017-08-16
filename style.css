@@ -13,3 +13,109 @@ Text Domain: alfred-minimalist
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+
+/* ----------------------------------------------------------------------
+
+Typography
+
+---------------------------------------------------------------------- */
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.15em;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+/* ----------------------------------------------------------------------
+
+Nav bar
+
+---------------------------------------------------------------------- */
+
+.blog-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	margin-left: 50px;
+}
+
+.blog-header {
+	float: left;
+}
+
+.blog-masthead {
+	float: right;
+	margin: 50px;
+}
+
+.blog-masthead a {
+	text-transform: uppercase;
+	margin: 0 20px;
+	font-weight: 100;
+}
+
+.clear {
+	clear: both;
+}
+
+/* ----------------------------------------------------------------------
+
+Blog post
+
+---------------------------------------------------------------------- */
+
+.blog-post-title {
+	width: 70%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.blog-post-content {
+	width: 50%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.blog-post-content .feature-image {
+	margin-bottom: 50px;
+}
+
+.blog-post-content .blog-post-date {
+	margin: 30px 0;
+	color: #9B9B9B;
+	font-style: italic;
+}
+
+.blog-post-content p,
+.blog-post-content .blog-post-date p {
+	line-height: 2rem;
+	font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

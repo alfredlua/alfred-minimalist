@@ -6,14 +6,12 @@
 
 	    	<div class="col-md-8">
 
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<?php 
+				if ( have_posts() ) : while ( have_posts() ) : the_post();
 
-			    <div class="page-header">	
-			    	<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-			    	<p class="meta">
-			    		By <?php the_author_posts_link(); ?> on <?php echo the_time('l, F jS, Y'); ?> 
-					</p>
-			    </div>
+			    	get_template_part( 'content', get_post_format() );
+
+			    ?>
 
 
 			    	<?php if( has_post_format( 'image' )): ?>
