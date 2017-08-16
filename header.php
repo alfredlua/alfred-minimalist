@@ -30,8 +30,8 @@
         <nav class="blog-nav">
           <a class="blog-nav-item" href="#">About</a>
           <a class="blog-nav-item active" href="#">Journal</a>
-          <a class="blog-nav-item" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter" width="25px" height="25px"></a>
-          <a class="blog-nav-item" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin-logo.png" alt="LinkedIn" width="25px" height="25px"></a>
+          <a class="blog-nav-item" href="https://twitter.com/alfred_lua"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter" width="25px" height="25px"></a>
+          <a class="blog-nav-item" href="https://www.linkedin.com/in/alfredlua/"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin-logo.png" alt="LinkedIn" width="25px" height="25px"></a>
         </nav>
       </div>
     </div>
