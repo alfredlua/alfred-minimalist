@@ -22,17 +22,27 @@ Typography
 ---------------------------------------------------------------------- */
 
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.15em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.15em;
 }
 
 h1, h2, h3 {
-  font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
 	font-size: 2.5rem;
 }
+
+h2, h3 {
+	margin: 50px 0 20px 0;
+}
+
+p {
+	line-height: 2rem;
+	font-size: 1.1rem;
+}
+
 
 /* ----------------------------------------------------------------------
 
@@ -77,29 +87,30 @@ Blog post
 	width: 70%;
 	margin: 50px auto;
 	text-align: center;
+	font-family: 'Lora', serif;
 }
 
 .blog-post-content {
 	width: 50%;
 	margin: 0 auto;
-	text-align: justify;
 }
 
 .blog-post-content .feature-image {
 	margin-bottom: 50px;
 }
 
-.blog-post-content .blog-post-date {
+.blog-post-content p {
+	color: #333333;
+	text-align: justify;
+}
+
+.blog-post-content .blog-post-date p {
 	margin: 30px 0;
 	color: #9B9B9B;
 	font-style: italic;
 }
 
-.blog-post-content p,
-.blog-post-content .blog-post-date p {
-	line-height: 2rem;
-	font-size: 1.1rem;
-}
+
 
 
 
