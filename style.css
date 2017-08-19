@@ -95,6 +95,7 @@ Blog post
 	font-size: 0.9rem;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: 50px;
 	margin-bottom: 0;
 }
 
@@ -125,6 +126,7 @@ Blog post
 .blog-post-tag {
 	font-size: 0.9rem;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .blog-post-tag a {

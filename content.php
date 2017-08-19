@@ -16,9 +16,8 @@
 
 		<?php the_content(); ?>
 
-		<hr>
+		<p class="blog-post-tag"><?php the_tags('TAGS: ', ', ');?></p>
 
-		<p class="blog-post-tag"><?php the_tags('TAGS: ', ', ');?></p>	
 	</div>
 
 </div>
