@@ -85,9 +85,20 @@ Blog post
 
 .blog-post-title {
 	width: 70%;
-	margin: 50px auto;
+	margin: 20px auto 50px auto;
 	text-align: center;
 	font-family: 'Lora', serif;
+}
+
+.blog-post-category {
+	font-size: 0.9rem;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.blog-post-category a {
+	color: #9B9B9B;
 }
 
 .blog-post-content {
@@ -110,10 +121,29 @@ Blog post
 	font-style: italic;
 }
 
+.blog-post-tag {
+	font-size: 0.9rem;
+	margin-top: 30px;
+}
+
+.blog-post-tag a {
+	background-color: #ECF0F1;
+	padding: 5px 10px;
+	margin-left: 5px;
+	border-radius: 5px;
+}
 
 
+/* ----------------------------------------------------------------------
 
+Comments
 
+---------------------------------------------------------------------- */
+
+.comments {
+	width: 70%;
+	margin: 0 auto;
+}
 
 
 

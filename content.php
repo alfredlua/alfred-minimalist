@@ -1,5 +1,6 @@
 <div class="blog-post">
 	<div class="page-header">	
+		<p class="blog-post-category"><?php the_category( ', ' );?></p>
 		<h1 class="blog-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 	</div>
 
@@ -14,16 +15,10 @@
 
 
 		<?php the_content(); ?>
+
+		<hr>
+
+		<p class="blog-post-tag"><?php the_tags('TAGS: ', ', ');?></p>	
 	</div>
-
-	<hr>
-
-	<p>			    		
-		Category: <?php the_category( ', ' );?> |
-		<?php the_tags('Tags: ', ', ');?>
-
-	</p>	
-
-	<hr>
 
 </div>

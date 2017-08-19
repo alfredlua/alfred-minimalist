@@ -15,7 +15,9 @@
 
 				<?php endwhile; endif; ?>
 
-				<?php comments_template(); ?>
+				<div class="comments">
+					<?php comments_template(); ?>
+				</div>
 
 	    	</div>
 
