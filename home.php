@@ -36,16 +36,27 @@
 
 				<hr> 
 
-				<?php endwhile; else: ?>
-				
+				<?php endwhile; endif; ?>
 
-					<div class="page-header">	
-				    	<h1>Oh no!</h1>
-				    </div>
+				<div class="pagination">
 
-				    <p>We could not find this page!!!</p>
+					<?php if( get_next_posts_link() ) :
 
-				<?php endif; ?>
+					next_posts_link( '<< Older posts', 0 );
+
+					endif; ?>
+
+				</div>
+
+				<div class="pagination">
+
+					<?php if( get_previous_posts_link() ) :
+
+					previous_posts_link( 'Newer posts >>', 0 );
+
+					endif; ?>
+
+				</div>
 
 	    	</div>
 
