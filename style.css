@@ -79,6 +79,7 @@ Nav bar
 
 .clear {
 	clear: both;
+	margin-bottom: 50px;
 }
 
 
@@ -92,7 +93,7 @@ Hero
 	margin-left: 5%;
 	margin-top: 50px;
 	position: absolute;
-	top: 175px;
+	top: 225px;
 	left: 50px;
 	width: 50%;
 	background-color: #34495E;
@@ -103,6 +104,11 @@ Hero
 	color: #FFFFFF;
 	font-family: 'Lora', serif;
 	margin-top: 20px;
+}
+
+.hero-intro h2>a {
+	text-decoration: underline;
+	color: #FFFFFF
 }
 
 .hero-photo {

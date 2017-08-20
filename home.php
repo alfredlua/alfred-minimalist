@@ -11,7 +11,7 @@
 	    		<h2>
 	    			Hi, I’m Alfred Lua.<br><br>
 
-		    		I’m a Content Crafter at Buffer, and I write for the Buffer blog.<br><br>
+		    		I’m a Content Crafter at <a href="https://buffer.com">Buffer</a>, and I write for the <a href="https://blog.bufferapp.com/">Buffer blog</a>.<br><br>
 
 		    		<!--- I write about content marketing, social media marketing, and SEO.<br><br> -->
 
