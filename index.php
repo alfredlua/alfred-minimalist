@@ -13,8 +13,11 @@
 
 					get_template_part( 'content', get_post_format() );
 
-				endwhile; else: 
 				?>
+
+				<hr> 
+
+				<?php endwhile; else: ?>
 
 					<div class="page-header">	
 				    	<h1>Oh no!</h1>
