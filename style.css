@@ -34,6 +34,10 @@ h1 {
 	font-size: 2.5rem;
 }
 
+h2 {
+	font-size: 2rem;
+}
+
 h2, h3 {
 	margin: 50px 0 20px 0;
 }
@@ -85,14 +89,25 @@ Hero
 ---------------------------------------------------------------------- */
 
 .hero-intro {
-	width: 40%;
+	margin-left: 5%;
+	margin-top: 50px;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	width: 50%;
 	background-color: #34495E;
-	padding: 50px;
+	padding: 30px;
 }
 
 .hero-intro h2 {
 	color: #FFFFFF;
 	font-family: 'Lora', serif;
+}
+
+.hero-photo {
+	float: right;
+	margin-right: 10%;
+	position: relative
 }
 
 

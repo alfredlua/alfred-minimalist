@@ -3,6 +3,10 @@
     <div class="container" role="main">
 
     	<div class="hero">
+    		<div class="hero-photo">
+    			<img src="<?php echo get_template_directory_uri(); ?>/images/profile-photo.png" alt="Alfred Lua's profile photo" width="500">
+    		</div>
+
     		<div class="hero-intro">
 	    		<h2>
 	    			Hi, I’m Alfred Lua.<br><br>
@@ -15,6 +19,8 @@
 	    		</h2>
     		</div>	
     	</div>
+
+    	<div class="clear"></div>
 
 	    <div class="row">
 
