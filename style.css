@@ -102,6 +102,7 @@ Hero
 .hero-intro h2 {
 	color: #FFFFFF;
 	font-family: 'Lora', serif;
+	margin-top: 20px;
 }
 
 .hero-photo {

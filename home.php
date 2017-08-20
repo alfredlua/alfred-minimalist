@@ -13,7 +13,7 @@
 
 		    		I’m a Content Crafter at Buffer, and I write for the Buffer blog.<br><br>
 
-		    		I write about content marketing, social media marketing, and SEO here.<br><br>
+		    		I write about content marketing, social media marketing, and SEO.<br><br>
 
 		    		Here are my latest posts…
 	    		</h2>
