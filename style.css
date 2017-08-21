@@ -14,6 +14,20 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/* ----------------------------------------------------------------------
+
+General
+
+---------------------------------------------------------------------- */
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 
 /* ----------------------------------------------------------------------
 
@@ -89,13 +103,15 @@ Hero
 
 ---------------------------------------------------------------------- */
 
+.hero {
+	width: 70%;
+	margin: 0 auto;
+}
+
 .hero-intro {
-	margin-left: 5%;
-	margin-top: 50px;
 	position: absolute;
-	top: 225px;
-	left: 50px;
-	width: 50%;
+	top: 275px;
+	width: 40%;
 	background-color: #34495E;
 	padding: 30px;
 }
@@ -112,9 +128,8 @@ Hero
 }
 
 .hero-photo {
-	float: right;
-	margin-right: 10%;
-	position: relative
+	position: relative;
+	left: 55%;
 }
 
 /* ----------------------------------------------------------------------
