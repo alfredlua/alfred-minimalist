@@ -40,21 +40,25 @@
 
 				<div class="pagination">
 
-					<?php if( get_next_posts_link() ) :
+					<div class="left">
 
-					next_posts_link( '<< Older posts', 0 );
+						<?php if( get_next_posts_link() ) :
 
-					endif; ?>
+						next_posts_link( 'Older posts', 0 );
 
-				</div>
+						endif; ?>
 
-				<div class="pagination">
+					</div>
 
-					<?php if( get_previous_posts_link() ) :
+					<div class="right">
 
-					previous_posts_link( 'Newer posts >>', 0 );
+						<?php if( get_previous_posts_link() ) :
 
-					endif; ?>
+						previous_posts_link( 'Newer posts', 0 );
+
+						endif; ?>
+
+					</div>
 
 				</div>
 
