@@ -59,7 +59,8 @@ Nav bar
 	font-weight: 100;
 	letter-spacing: 0.2rem;
 	text-transform: uppercase;
-	margin: 50px 70px;
+	margin-top: 50px;
+	margin-left: 150px;
 }
 
 .blog-title a {
@@ -73,7 +74,8 @@ Nav bar
 
 .blog-masthead {
 	float: right;
-	margin: 60px;
+	margin-top: 60px;
+	margin-right: 150px;
 }
 
 .blog-masthead a {
