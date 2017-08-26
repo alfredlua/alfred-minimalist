@@ -59,7 +59,12 @@ Nav bar
 	font-weight: 100;
 	letter-spacing: 0.2rem;
 	text-transform: uppercase;
-	margin-left: 50px;
+	margin: 50px 70px;
+}
+
+.blog-title a {
+	text-decoration: none;
+	color: #333333;
 }
 
 .blog-header {
@@ -68,13 +73,18 @@ Nav bar
 
 .blog-masthead {
 	float: right;
-	margin: 50px;
+	margin: 60px;
 }
 
 .blog-masthead a {
 	text-transform: uppercase;
+	text-decoration: none;
+	color: #333333;
 	margin: 0 20px;
-	font-weight: 100;
+}
+
+.blog-masthead img {
+	vertical-align: text-bottom;
 }
 
 .clear {
