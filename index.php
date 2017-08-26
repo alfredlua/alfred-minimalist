@@ -4,34 +4,26 @@
 
 	    <div class="row">
 
-	    	<div class="col-md-2"></div>
+			<?php 
+			if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 
-	    	<div class="col-md-8">
+				get_template_part( 'content', get_post_format() );
 
-				<?php 
-				if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+			?>
 
-					get_template_part( 'content', get_post_format() );
+			<hr> 
 
-				?>
+			<?php endwhile; else: ?>
 
-				<hr> 
+				<div class="page-header">	
+			    	<h1>Oh no!</h1>
+			    </div><!-- page-header -->
 
-				<?php endwhile; else: ?>
+			    <p>We could not find this page!!!</p>
 
-					<div class="page-header">	
-				    	<h1>Oh no!</h1>
-				    </div><!-- page-header -->
+			<?php endif; ?>
 
-				    <p>We could not find this page!!!</p>
-
-				<?php endif; ?>
-
-	    	</div><!-- .col-md-8 -->
-
-	    	<div class="col-md-2"></div>
-
-	    </div><!-- .row -->
+	    </div>
 
     </div><!-- .container -->
 

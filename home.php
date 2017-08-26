@@ -24,47 +24,39 @@
 
 	    <div class="row">
 
-	    	<div class="col-md-2"></div>
+			<?php 
+			if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 
-	    	<div class="col-md-8">
+				get_template_part( 'content', get_post_format() );
+			?>
 
-				<?php 
-				if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+			<hr> 
 
-					get_template_part( 'content', get_post_format() );
-				?>
+			<?php endwhile; endif; ?>
 
-				<hr> 
+			<div class="pagination">
 
-				<?php endwhile; endif; ?>
+				<div class="left">
 
-				<div class="pagination">
+					<?php if( get_next_posts_link() ) :
 
-					<div class="left">
+					next_posts_link( 'Older posts', 0 );
 
-						<?php if( get_next_posts_link() ) :
-
-						next_posts_link( 'Older posts', 0 );
-
-						endif; ?>
-
-					</div>
-
-					<div class="right">
-
-						<?php if( get_previous_posts_link() ) :
-
-						previous_posts_link( 'Newer posts', 0 );
-
-						endif; ?>
-
-					</div>
+					endif; ?>
 
 				</div>
 
-	    	</div>
+				<div class="right">
 
-	    	<div class="col-md-2"></div>
+					<?php if( get_previous_posts_link() ) :
+
+					previous_posts_link( 'Newer posts', 0 );
+
+					endif; ?>
+
+				</div>
+
+			</div>
 
 	    </div>
 
