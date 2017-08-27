@@ -26,13 +26,11 @@
     </div>
 
     <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item" href="#">Blog</a>
-          <a class="blog-nav-item" href="https://twitter.com/alfred_lua"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter" width="30px" height="25px"></a>
-          <a class="blog-nav-item" href="https://www.linkedin.com/in/alfredlua/"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin-logo.png" alt="LinkedIn" width="30px" height="25px"></a>
-        </nav>
-      </div>
+      <nav class="blog-nav">
+        <a class="blog-nav-item" href="mailto:alfredlua@gmail.com"><img src="<?php echo get_template_directory_uri(); ?>/images/email.png" alt="Email" width="30px" height="25px"></a>
+        <a class="blog-nav-item" href="https://twitter.com/alfred_lua"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter" width="30px" height="25px"></a>
+        <a class="blog-nav-item" href="https://www.linkedin.com/in/alfredlua/"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin-logo.png" alt="LinkedIn" width="30px" height="25px"></a>
+      </nav>
     </div>
 
     <div class="clear"></div>

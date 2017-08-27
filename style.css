@@ -14,6 +14,24 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/* ----------------------------------------------------------------------
+
+General
+
+---------------------------------------------------------------------- */
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.container {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
 
 /* ----------------------------------------------------------------------
 
@@ -35,7 +53,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 h2, h3 {
@@ -45,6 +63,14 @@ h2, h3 {
 p {
 	line-height: 2rem;
 	font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+	h2 {
+		font-size: 2rem;
+	}
+
 }
 
 
@@ -59,8 +85,7 @@ Nav bar
 	font-weight: 100;
 	letter-spacing: 0.2rem;
 	text-transform: uppercase;
-	margin-top: 50px;
-	margin-left: 150px;
+	text-align: center;
 }
 
 .blog-title a {
@@ -68,14 +93,8 @@ Nav bar
 	color: #333333;
 }
 
-.blog-header {
-	float: left;
-}
-
 .blog-masthead {
-	float: right;
-	margin-top: 60px;
-	margin-right: 150px;
+	text-align: center;
 }
 
 .blog-masthead a {
@@ -91,7 +110,28 @@ Nav bar
 
 .clear {
 	clear: both;
-	margin-bottom: 50px;
+	margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.blog-header {
+		float: left;
+	}
+
+	.blog-title {
+		margin-top: 50px;
+	}
+
+	.blog-masthead {
+		float: right;
+		margin-top: 60px;
+	}
+
+	.clear {
+		clear: both;
+		margin-bottom: 50px;
+	}
 }
 
 
@@ -101,15 +141,8 @@ Hero
 
 ---------------------------------------------------------------------- */
 
-.hero {
-	width: 70%;
-	margin: 0 auto;
-}
-
 .hero-intro {
-	position: absolute;
-	top: 275px;
-	width: 40%;
+	width: 100%;
 	background-color: #34495E;
 	padding: 30px;
 }
@@ -117,6 +150,7 @@ Hero
 .hero-intro h2 {
 	color: #FFFFFF;
 	font-family: 'Lora', serif;
+	font-size: 1.5rem;
 	margin-top: 20px;
 }
 
@@ -126,9 +160,27 @@ Hero
 }
 
 .hero-photo {
-	position: relative;
-	left: 55%;
-	width: 500px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.hero-intro {
+		position: absolute;
+		top: 275px;
+		width: 40%;
+	}
+
+	.hero-intro h2 {
+		font-size: 2rem;
+	}
+
+	.hero-photo {
+		position: relative;
+		left: 55%;
+		width: 500px;
+	}
 }
 
 /* ----------------------------------------------------------------------
@@ -137,16 +189,21 @@ Pagination
 
 ---------------------------------------------------------------------- */
 
-.pagination {
-	width: 50%;
-	margin: 0 auto;
-}
-
 .pagination a {
 	background-color: #ECF0F1;
 	padding: 5px 10px;
 	border-radius: 5px;
 }
+
+@media screen and (min-width: 1024px) {
+
+	.pagination {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+}
+
 
 
 /* ----------------------------------------------------------------------
@@ -156,10 +213,10 @@ Blog post
 ---------------------------------------------------------------------- */
 
 .blog-post-title {
-	width: 70%;
 	margin: 20px auto 50px auto;
 	text-align: center;
 	font-family: 'Lora', serif;
+	font-size: 1.7rem;
 }
 
 .blog-post-category {
@@ -175,7 +232,7 @@ Blog post
 }
 
 .blog-post-content {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -207,6 +264,19 @@ Blog post
 	border-radius: 5px;
 }
 
+@media screen and (min-width: 1024px) {
+
+	.blog-post-title {
+		font-size: 2rem;
+		width: 70%;
+	}
+
+	.blog-post-content {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
 
 /* ----------------------------------------------------------------------
 
@@ -215,8 +285,15 @@ Comments
 ---------------------------------------------------------------------- */
 
 .comments {
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.comments {
+		width: 70%;
+	}
 }
 
 
@@ -240,7 +317,6 @@ footer p {
 	font-size: 0.9rem;
 	text-transform: uppercase;
 }
-
 
 
 
