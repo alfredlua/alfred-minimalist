@@ -106,7 +106,7 @@ Nav bar
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #333333;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 
 .blog-masthead img {
@@ -132,6 +132,10 @@ Nav bar
 		float: right;
 		margin-top: 60px;
 	}
+
+	.blog-masthead a {
+		margin: 0 20px;
+}
 
 	.clear {
 		clear: both;
