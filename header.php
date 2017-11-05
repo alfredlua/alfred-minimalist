@@ -29,8 +29,7 @@
       <nav class="blog-nav">
         <a class="blog-nav-item" href="<?php echo get_bloginfo( 'wpurl' ); ?>/blog">Blog</a>
         <a class="blog-nav-item" href="<?php echo get_bloginfo( 'wpurl' ); ?>/newsletter/">Newsletter</a>
-        <a class="blog-nav-item" href="https://twitter.com/alfred_lua" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-logo.png" alt="Twitter" width="30px" height="25px"></a>
-        <a class="blog-nav-item" href="https://www.linkedin.com/in/alfredlua/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin-logo.png" alt="LinkedIn" width="30px" height="25px"></a>
+        <a class="blog-nav-item" href="https://twitter.com/alfred_lua" target="_blank">Twitter</a>
       </nav>
     </div>
 
