@@ -72,9 +72,15 @@ p, ul, ol {
 }
 
 blockquote {
-	border-left: none;
+	border-left: 0.5rem solid #168eea;
 	margin-left: 1rem;
 	margin-right: 2rem;
+}
+
+blockquote p {
+	font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 @media screen and (min-width: 1024px) {
