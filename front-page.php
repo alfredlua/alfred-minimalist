@@ -11,7 +11,7 @@
 	    		<h2>
 	    			Hi, I’m Alfred.<br><br>
 
-		    		I’m a Content Crafter at <a href="https://buffer.com">Buffer</a>, and I write for <a href="https://blog.bufferapp.com/">a blog</a> with over 1.4M monthly visits.<br><br>
+		    		I’m a Content Crafter at <a href="https://buffer.com">Buffer</a>, and I write for <a href="https://blog.bufferapp.com/">a blog</a> with over 1.5M monthly visits.<br><br>
 
 		    		<!--- I write about content marketing, social media marketing, and SEO.<br><br> -->
 
